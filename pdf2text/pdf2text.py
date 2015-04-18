@@ -13,7 +13,8 @@ from pdfminer.layout import LAParams
 class Extractor(object):
     def __init__(self,
             password='',
-            encoding='utf-8',
+            #encoding='utf-8',
+            encoding='gbk',
             normalize_spaces=True,
             caching=True,
             detect_vertical=True,
